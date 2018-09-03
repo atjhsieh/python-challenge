@@ -11,7 +11,6 @@ with open(csvpath, newline='') as csvfile:
     
     total = 0
     row_count = 0
-    count_khan = 0
     
     r = [r for r in csvreader]
     col = [row[2] for row in r]
